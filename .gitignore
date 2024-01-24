@@ -1,0 +1,6 @@
+.DS_Store
+dist/
+src/td_log.egg-info/
+src/td_log/__pycache__/
+*.log
+*.py~
