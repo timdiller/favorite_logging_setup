@@ -10,6 +10,28 @@ DEFAULT_FILENAME = "favorite.log"
 def initialize_logging(console_level=logging.DEBUG,
                        file_level=logging.DEBUG,
                        filename=DEFAULT_FILENAME, mode="w"):
+    """ Return a root logger configured the way Tim likes it.
+
+    Returned logger has console and file handlers configured to produce
+    standardized output like this:
+
+    2023-10-18 10:21:16,659 INFO     [root:32] Logging initialized.
+
+    The columns line up to make visual scanning easy.
+
+    Parameters
+    ==========
+    console_level : int
+        default : logging.DEBUG
+    file_level : int
+        default : logging.DEBUG
+    filename : str
+        default : "favorite.log"
+
+    Returns
+    =======
+    logger : instance(logging.Logger)
+    """
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
 
