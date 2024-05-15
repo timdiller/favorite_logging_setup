@@ -1,3 +1,22 @@
+[project]
+name = "td_log"
+version = "0.2"
+authors = [
+    {name="Tim Diller", email="tim@dillerdigital.com"},
+]
+description = "Logging setup utils"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/timdiller/favorite_logging_setup"
+Issues = "https://github.com/timdiller/favorite_logging_setup/issues"
+
 [build-system]
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
