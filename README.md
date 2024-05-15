@@ -9,7 +9,7 @@ Key features include a format string that makes searching and sorting easy and a
 ## Install from source
 Make sure your desired Python environment is active, then type:
 ```
-$ git@github.com:timdiller/favorite_logging_setup.git
+$ git clone git@github.com:timdiller/favorite_logging_setup.git
 $ cd favorite_logging_setup
 $ pip install ./
 ```
