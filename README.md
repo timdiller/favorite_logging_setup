@@ -6,6 +6,12 @@ Key features include a format string that makes searching and sorting easy and a
 
 # Installation
 
+## `pip install`
+Make sure your desired Python environment is active, then type:
+```
+pip install "td_log @ git+https://github.com/timdiller/favorite_logging_setup"
+```
+
 ## Install from source
 Make sure your desired Python environment is active, then type:
 ```
